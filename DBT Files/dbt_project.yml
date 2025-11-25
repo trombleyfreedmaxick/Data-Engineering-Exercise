@@ -1,0 +1,25 @@
+name: "sales_analytics"
+version: "1.0.0"
+config-version: 2
+
+profile: "sales_analytics"
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+  - "logs"
+
+models:
+  sales_analytics:
+    staging:
+      +materialized: view
+
+flags:
+  require_generic_test_arguments_property: true

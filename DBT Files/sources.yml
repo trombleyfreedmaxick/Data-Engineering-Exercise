@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Raw sales data from CSV files
+    schema: main
+    tables:
+      - name: sales_orders
+        description: Raw sales orders data
+        config:
+          meta:
+            external_location: "read_csv_auto('data/SalesOrders.csv', header=true)"
