@@ -1,0 +1,4 @@
+## Updates to make
+- Update the main readme to reflect the actual tests having multiple data sets and to reference the DBT project folder if they choose to use that method
+- Add a second SQL query to DBT project so that both csv's are staged properly
+- Update the Readme in the DBT folder to reflect this
