@@ -42,7 +42,7 @@ You will:
 4. Add data quality tests.
 5. Document your model and assumptions.
 6. Re-run your process on Day 2 files to validate correctness.
-7. Optionally create a simple BI view (Power BI or any other analysis method).
+7. Create a Power BI Dashboard (or other BI tool) with a few charts you deem useful.
 
 Your work will be reviewed for correctness, clarity, and real-world engineering thinking.
 
@@ -65,10 +65,9 @@ Place all deliverables inside:
   - Warehouse model
   - Incremental logic and watermark strategy
   - Assumptions and limitations
+- A Power BI file (or other BI tool) with visual representations of the data
 
-### Optional
-
-- A Power BI file, notebook, or SQL file with sample analysis queries
+## Optional
 - Additional tests, documentation, or lineage diagrams
 
 ---
@@ -213,17 +212,17 @@ Document any observations in `/candidate/README.md`.
 
 ---
 
-## Step 7 (Optional): Create a BI View
+## Step 7: Create a BI View
 
-Optionally, use Power BI (the empty `PowerBI_Template.pbix`) or another BI / notebook tool to create a simple view over your warehouse model.
+Use Power BI (the empty `Sales_Dashboard.pbix`) or another BI tool to create visuals to describe the dashboards.
 
-Example visuals or queries:
+Example visuals:
 
 - Revenue by month
 - Top 5 customers by revenue
 - Sales by product category
 
-Place any outputs (for example, `.pbix` or notebooks) in:
+Place final file in:
 
     /candidate/bi
 
@@ -259,6 +258,10 @@ We will look for:
 - Clear and meaningful commit messages
 - A sensible and organized `/candidate` directory
 
+
+## BI Capabilities
+
+- Working knowledge of importing data and building visuals representing that data.
 ---
 
 ## Time Expectation
