@@ -6,6 +6,8 @@ This exercise evaluates your ability to design and implement SQL-first data tran
 You may use any local SQL engine you prefer (SQL Server, Postgres, DuckDB, SQLite, etc.).
 You may complete the exercise using plain SQL scripts or a framework such as dbt Core, SQLMesh, or Dataform.
 
+Should you choose to use DBT 
+
 Your work should reflect production-quality engineering fundamentals: incrementality, clean SQL, clear documentation, testing, and Git version control.
 
 This session will be recorded for internal review. You are encouraged to explain verbally as you go, reasoning as you work etc., especially when making design decisions.
@@ -15,14 +17,8 @@ This session will be recorded for internal review. You are encouraged to explain
 ## Contents
 
     /data
-       /day1
-          customers.csv
-          products.csv
-          sales_orders.csv
-       /day2
-          customers.csv
-          products.csv
-          sales_orders.csv
+       /SalesOrders_Day_One.csv
+       /SalesOrders_Day_Two.csv
 
     /bi
        PowerBI_Template.pbix (optional starter file)
